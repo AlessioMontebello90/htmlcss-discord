@@ -6,6 +6,27 @@
     box-sizing: border-box;
 }
 
+body{
+font-family: Whitney,'Helvetica Neue', Helvetica, Arial, sans-serif;
+color:black;
+font-size: 1.2rem;
+line-height: 30px;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.botton-header{
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+
+
+
 .container{
     width: 1050px;
     margin: auto auto;
@@ -28,6 +49,7 @@
     color: white;
     text-decoration: none;
  }
+
 ul{
     list-style: none;
     width: 100%;
@@ -74,6 +96,8 @@ ul{
 
 
 
+
+
 .card{
     height: 500px;
     margin-bottom: 0px;
@@ -110,9 +134,8 @@ footer{
 
 .box-pink{
     width: 800px;
-    padding: ;
-    background-color:#ee82ee ;
-
+    text-align: center;
+    
 }
 
 .black-box{

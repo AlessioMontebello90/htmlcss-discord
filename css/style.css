@@ -15,7 +15,7 @@
 
 .big-container{
     height: 60px;
-    background-color: #add8e6;
+    background-color: #3161e0;
     justify-content: space-between;
  }
 
@@ -24,12 +24,10 @@
     padding: 10px;
  }
 
- .logo, .login , ul{
-    background-color: #daa520;
-
+ a{
+    color: white;
+    text-decoration: none;
  }
-
-
 ul{
     list-style: none;
     width: 100%;
@@ -38,7 +36,7 @@ ul{
 
 .card-blue{
     background-color: #1e90ff ;
-    width: 60%;
+    width: 70%;
 }
 
 .card-pink{
@@ -62,6 +60,15 @@ ul{
     background-color: #228b22;
     width: 100%;
     height: 700px;
+}
+
+/* TEXT */
+
+.button{
+    padding: 10px 25px;
+    color: black;
+    background-color: white;
+    border-radius: 100px;
 }
 
 
@@ -91,9 +98,10 @@ footer{
 
 /* IMG-BG */
 
-.img-bg{
-    background-color: #00008b;
-    height: 500px;
+.jumbo{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
 }
